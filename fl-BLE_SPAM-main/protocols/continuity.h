@@ -5,7 +5,7 @@
 typedef enum {
     ContinuityTypeProximityPair,
     ContinuityTypeAppleAction,
-    ContinuityTypeAppleCustom, // Добавлено: идентификатор нашей кастомной атаки
+    ContinuityTypeAppleCustom,
 } ContinuityType;
 
 extern const BleSpamProtocol protocol_continuity;
