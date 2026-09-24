@@ -11,5 +11,5 @@ jobs:
       - name: Build with ufbt
         uses: flipperdevices/flipperzero-ufbt-action@dev
         with:
-          app-dir: fl-BLE_SPAM-main    # Укажите точное имя папки, если оно отличается
-          sdk-index-url: https://unleashedflip.com
+          app-dir: fl-BLE_SPAM-main    # Проверьте, что имя папки внутри вашего репозитория именно такое
+          sdk-channel: release         # Собираем под стабильный релизный SDK
