@@ -5,7 +5,6 @@
 typedef enum {
     ContinuityTypeProximityPair,
     ContinuityTypeAppleAction,
-    ContinuityTypeAppleCustom,
 } ContinuityType;
 
 extern const BleSpamProtocol ble_spam_protocol_continuity;
