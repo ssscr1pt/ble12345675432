@@ -12,4 +12,4 @@ jobs:
         uses: flipperdevices/flipperzero-ufbt-action@dev
         with:
           app-dir: .
-          sdk-channel: unleashed
+          sdk-index-url: https://up.unleashedflip.com/directory.json
