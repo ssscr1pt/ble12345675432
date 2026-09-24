@@ -1,4 +1,4 @@
-#include "continuity.h"
+#include "protocols/continuity.h"
 #include <storage/storage.h>
 #include <furi_hal_bt.h>
 
