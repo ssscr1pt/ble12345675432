@@ -11,5 +11,5 @@ jobs:
       - name: Build with ufbt
         uses: flipperdevices/flipperzero-ufbt-action@dev
         with:
-          app-dir: .
-          sdk-index-url: https://up.unleashedflip.com/directory.json
+          app-dir: fl-BLE_SPAM-main    # Укажите точное имя папки, если оно отличается
+          sdk-index-url: https://unleashedflip.com
