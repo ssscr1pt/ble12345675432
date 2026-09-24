@@ -8,4 +8,4 @@ typedef enum {
     ContinuityTypeAppleCustom,
 } ContinuityType;
 
-extern const BleSpamProtocol protocol_continuity;
+extern const BleSpamProtocol ble_spam_protocol_continuity;
